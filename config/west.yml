@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/victorlucachi
+      url-base: https://github.com/ziteh
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: pmw3610-aml
+      revision: siderakb/ergosnm-shield
       import: app/west.yml
   self:
     path: config
